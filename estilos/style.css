@@ -61,11 +61,14 @@ div {
     background-color: rgba(67, 1, 128, 0.842);
 }
 
-.botoeslogin {
-    padding: 10px;
+div.botoeslogin {
+    padding: 0px;
     margin: 8px;
     background-color: rgb(10, 103, 134);
-    cursor: pointer;
+}
+
+input.botoes:hover {
+    background-color: rgb(13, 135, 175);
 }
 
 input.botoes {
@@ -75,6 +78,9 @@ input.botoes {
     font-weight: bold;
     cursor: pointer;
     margin: auto;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
 }
 
 input {

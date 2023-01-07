@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     
     * {
         padding: 0px;
@@ -31,6 +31,7 @@
         margin: 10px 0px;
         width: 400px;
         padding-top: 0px;
+        margin-bottom: 15px;
     }
 
     #textotelamenor {
@@ -41,19 +42,23 @@
         width: 300px;
         display: block;
         margin: 3px;
-        margin-left: 16%;
     }
 
     form {
         display: inline-block;
+        margin-left: 7.8%;
     }
 
-    .botoeslogin {
+    div.botoeslogin {
         text-align: center;
         background-color: rgb(10, 103, 134);
         cursor: pointer;
         margin: 3px;
-        margin-left: 16%;
+        width: 320px;
+    }
+
+    input {
+        width: 265px;
     }
 
     img {
@@ -62,5 +67,63 @@
         height: 301px;
         border-radius: 0px 20px 20px 0px;
         width: 265px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    
+    body {
+        background-image: linear-gradient(to bottom, rgb(46, 39, 53), rgb(67, 1, 128));
+    }
+    
+    main {
+        width: 1000px;
+        height: 400px;
+    }
+
+    img {
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    main h1 {
+        margin-right: 48%;
+        font-size: 2.5em;
+    }
+    
+    #textotelamaior {
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+        margin-left: 6%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 400px;
+        padding-top: 0px;
+    }
+
+    #textotelamenor {
+        display: none;
+    }
+
+    form {
+        display: inline-block;
+        margin-left: 6%;
+        margin-top: 5px;
+    }
+
+    input {
+        padding: 8px;
+        width: 300px;
+    }
+
+    input.botoes {
+        padding: 15px;
     }
 }
