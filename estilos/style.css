@@ -6,10 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body, html {
     background-color: rgba(67, 1, 128, 0.842);
     position: relative;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -25,7 +24,6 @@ main {
     position: absolute;
     background-color: white;
     width: 260px;
-    height: 525px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
