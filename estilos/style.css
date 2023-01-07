@@ -38,7 +38,11 @@ main h1 {
     font-size: 1.7em;
 }
 
-main p {
+#textotelamaior {
+    display: none;
+}
+
+#textotelamenor {
     text-align: center;
     padding: 10px;
     line-height: 1.3em;
