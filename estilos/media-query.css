@@ -126,4 +126,14 @@
     input.botoes {
         padding: 15px;
     }
+
+    span {
+        position: absolute;
+        top: 16%;
+        left: 2px;
+    }
+
+    .material-icons {
+        font-size: 28px;
+    }
 }
