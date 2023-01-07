@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background-image: linear-gradient(to bottom, rgb(46, 39, 53), rgb(67, 1, 128));
+    }
+
+    main {
+        width: 700px ;
+        height: 300px;
+    }
+
+    main h1 {
+        margin-left: 24%;
+        text-align: left;
+        padding: 5px 10px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    main p {
+        font-size: 1em;
+        text-align: center;
+        margin: 0px;
+        width: 400px;
+        padding-top: 0px;
+        display: none;
+    }
+
+    div {
+        width: 300px;
+        display: block;
+        margin: 3px;
+        margin-left: 16%;
+    }
+
+    form {
+        display: inline-block;
+    }
+
+    .botoeslogin {
+        text-align: center;
+        background-color: rgb(10, 103, 134);
+        cursor: pointer;
+        margin: 3px;
+        margin-left: 16%;
+    }
+
+    img {
+        position: absolute;
+        left: 62.2%;
+        height: 301px;
+        border-radius: 0px 20px 20px 0px;
+        width: 265px;
+    }
+}
